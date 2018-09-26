@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/dato1" android:title="Datos 1"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/dato2" android:title="Datos 2"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/dato3" android:title="Datos 3"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/datos" android:title="Todos los datos"
+        android:orderInCategory="103" app:showAsAction="never" />
+</menu>
